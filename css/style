@@ -1,0 +1,229 @@
+/* CSS Document 
+Author Name: PrashantMaskar
+Author E-mail: prashantmaskar93@gmail.com
+
+
+------------ TABLE OF CONTENT ------------
+
+-GENERRAL CSS
+
+
+*/
+/* ================================= */
+/* ---------- GENERRAL CSS --------- */
+/* ================================= */
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,400,400i,500,600,700,900');
+
+body {
+    position: relative;
+    font-size: 15px;
+    color: #888;
+    font-family: 'Exo 2', sans-serif;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p {
+    line-height: normal;
+    margin: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.4s;
+}
+a:hover,
+a:focus,
+.btn.active.focus, 
+.btn.active:focus, 
+.btn.focus, 
+.btn.focus:active, 
+.btn:active:focus, 
+.btn:focus {
+  text-decoration: none;
+    outline: none;
+    transition: 0.4s;
+}
+img {
+  border: 0 none;
+  height: auto;
+  width:100%;
+}
+/*forms*/
+
+::-webkit-input-placeholder {
+    color: #cccccc;
+}
+:-moz-placeholder {
+    color: #cccccc;
+    opacity: 1;
+}
+::-moz-placeholder {
+    color: #cccccc;
+    opacity: 1;
+}
+:-ms-input-placeholder {
+    color: #cccccc;
+}
+input[type="submit"] {
+    outline: none;
+    border: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 18px;
+}
+h2,
+h3,
+h4 {
+    font-weight: 600;
+    margin: 0;
+}
+h5 {
+    font-size: 16px;
+    margin: 0;
+}
+.color_white {
+    color: #fff;
+}
+.bg_white {
+    background: #fff;
+}
+.bg_lightgry {
+    background: #f6f6f6;
+}
+.bg_transparent {
+    background: transparent;
+}
+.p_0 {
+    padding: 0;
+}
+.p_t40 {
+    padding-top: 40px;
+}
+.p_b40 {
+    padding-bottom: 40px;
+}
+.p-all20 {
+    padding: 20px;
+}
+.p_t20 {
+    padding-top: 20px;
+}
+.p_b20 {
+    padding-bottom: 20px;
+}
+.p_L_0 {
+    padding-left: 0;
+}
+.m_0 {
+    margin: 0;
+}
+.m_b10 {
+    margin-bottom: 10px;
+}
+.m_t10 {
+    margin-top: 10px;
+}
+.m_t20 {
+    margin-top: 20px;
+}
+.m_b20 {
+    margin-bottom: 20px;
+}
+.p_r25 {
+    padding-right: 25px;
+}
+.p_l25 {
+    padding-left: 25px;
+}
+.p_b30 {
+    padding-bottom: 30px;
+}
+.p_t30 {
+    padding-top: 30px;
+}
+.m_b30 {
+    margin-bottom: 30px;
+}
+.m_t40 {
+    margin-top: 40px;
+}
+.p_tb70 {
+    padding:0px 0;
+}
+.m_b40 {
+    margin-bottom: 40px;
+}
+.p_b70 {
+    padding-bottom:70px;
+}
+.p_t70 {
+    padding-top:70px;
+}
+.p_b55 {
+    padding-bottom: 55px;
+}
+.p_t55 {
+    padding-top: 55px;
+}
+.m_t30 {
+    margin-top: 30px;
+}
+.m_t5 {
+    margin-top: 5px;
+}
+.m_b5 {
+    margin-bottom: 5px;
+}
+.m_b20 {
+    margin-bottom: 20px;
+}
+.m_t20 {
+    margin-top: 20px;
+}
+.m_r20 {
+    margin-right: 20px;
+}
+.m_t60 {
+    margin-top: 60px;
+}
+.m_b60 {
+    margin-bottom: 60px;
+}
+.m_b70{
+    margin-bottom:70px;
+}
+.m_t70 {
+    margin-top:70px;
+}
+.p_bt120 {
+    padding: 120px 0;
+}
+.heading{
+	margin-bottom:40px;
+}
+.heading h2 {
+  color: #3a2f2f;
+}
